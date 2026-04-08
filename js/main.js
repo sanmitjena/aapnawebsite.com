@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function () {
     statusMsg.textContent = "Sending message...";
 
     const serviceID = "service_xtlwz5j";
-    const templateID = "template_mz1yfmj";
+    const templateID = "template_f3l6h8g";
 
     emailjs.sendForm(serviceID, templateID, this)
       .then(() => {
