@@ -114,7 +114,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
 
-  emailjs.init("T7qwvQi7pUlbg2mmh");
+  emailjs.init("K70-YYx5nUXFqVyuf");
 
   const form = document.getElementById("contactForm");
   const statusMsg = document.getElementById("form-status");
