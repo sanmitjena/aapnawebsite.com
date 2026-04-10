@@ -107,6 +107,33 @@
 
 })(jQuery);
 
+/*** DARK MODE START ***/
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const toggleBtn = document.getElementById("theme-toggle");
+
+  if (toggleBtn) {
+    toggleBtn.addEventListener("click", function () {
+      document.body.classList.toggle("dark-mode");
+
+      // Save user preference
+      if (document.body.classList.contains("dark-mode")) {
+        localStorage.setItem("theme", "dark");
+      } else {
+        localStorage.setItem("theme", "light");
+      }
+    });
+  }
+
+  // Load saved theme
+  if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark-mode");
+  }
+
+});
+
+/*** DARK MODE END ***/
 
 !-- EmailJS
 

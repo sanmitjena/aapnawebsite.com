@@ -2,7 +2,7 @@
 
 :root {
     --primary: #bb6aeb;
-    --light: #F0FBFC;
+    --light: #07d9ec;
     --light: #f0e4de;
     --dark: #181d38;
 }
@@ -14,7 +14,7 @@
 
 .btn a {
     text-decoration: none;
-    color: #fff;
+    color: #d30404;
 }
 
 .btn:hover {
@@ -53,6 +53,55 @@
     z-index: 99;
 }
 
+.back-to-top {
+    background-color: #9b0feb;  /* button background */
+    color: #fcf7f7;               /* arrow color */
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+.back-to-top i {
+    color: #02148b; /* arrow icon color */
+    background: linear-gradient(45deg, #bb6aeb, #9325d3);
+    
+}
+
+/*** dark mode start ***/
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Navbar */
+.dark-mode .navbar {
+  background-color: #1e1e1e;
+}
+
+/* Sections */
+.dark-mode .features-section,
+.dark-mode .working-process-section,
+.dark-mode .footer {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+/* Links */
+.dark-mode a {
+  color: #bb6aeb;
+}
+
+/* Cards */
+.dark-mode .feature-box,
+.dark-mode .course-card,
+.dark-mode .step-box {
+  background-color: #222;
+  color: #fff;
+}
+
+/*** dark mode end ***/
 
 /*** Spinner ***/
 #spinner {
@@ -888,8 +937,8 @@
 /* Contact form */
 .contact-form{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
 .contact-form label{display:flex;flex-direction:column;font-size:14px;color:var(--muted)}
-.contact-form input, .contact-form textarea{padding:10px;border:1px solid #e6e6e6;border-radius:6px;font-size:14px}
-.btn{background:var(--accent-dark);color:#ffffff;padding:10px 14px;border:none;border-radius:6px;font-weight:600;cursor:pointer;}
+.contact-form input, .contact-form textarea{padding:10px;border:1px solid #8f06f7;border-radius:6px;font-size:14px}
+.btn{background:var(--accent-dark);color:#b904f0;padding:10px 14px;border:none;border-radius:6px;font-weight:600;cursor:pointer;}
 
 /* Mobile */
 #mobile-toggle, #mobile-toggle-2, #mobile-toggle-3, #mobile-toggle-4{
